@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "76435c71-69c8-4c3d-83b7-fdc6e4223d69",
+  "alias": "PnPspFrameworkGetItemsWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+    "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "PnPSPFrameworkGetItems" },
+    "description": { "default": "PnPSPFrameworkGetItems description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "PnPSPFrameworkGetItems"
+    }
+  }]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pn-psp-framework-get-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnPspFrameworkGetItems/PnPspFrameworkGetItemsWebPart.js",
+          "manifest": "./src/webparts/pnPspFrameworkGetItems/PnPspFrameworkGetItemsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PnPspFrameworkGetItemsWebPartStrings": "lib/webparts/pnPspFrameworkGetItems/loc/{locale}.js"
+  }
+}

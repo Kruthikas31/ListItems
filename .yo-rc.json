@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.10.0",
+    "libraryName": "pn-psp-framework-get-items",
+    "libraryId": "c5a041ee-d528-4ecf-9ad0-aebb9be65085",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

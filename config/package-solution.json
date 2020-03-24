@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pn-psp-framework-get-items-client-side-solution",
+    "id": "c5a041ee-d528-4ecf-9ad0-aebb9be65085",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/pn-psp-framework-get-items.sppkg"
+  }
+}
